@@ -1,1 +1,1 @@
-alert("hello azizam");
+alert("git connected");
