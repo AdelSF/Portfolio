@@ -1,3 +1,13 @@
 body {
-    margin: 0;
+    font-family: 'Open Sans Condensed', sans-serif;
+    background-color: white;
+}
+
+#mainNavbar .navbar-brand {
+    color:rgb(125, 185, 235);
+}
+
+#mainNavbar {
+    font-size: 1.2rem;
+    font-weight: 100;
 }
