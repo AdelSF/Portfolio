@@ -8,10 +8,10 @@ what is used:
 5- node.js
 
 
-git status <to see what changed>
-git add <file name> staging the file
-git commit -m "message"
-git push origin <branch name>
-make a new pull request 
-merge the changes
+git status <to see what changed>  //  
+git add <file name> staging the file  //  
+git commit -m "message"  //  
+git push origin <branch name>  //  
+make a new pull request   //  
+merge the changes  //  
 
