@@ -1,6 +1,5 @@
 body {
     font-family: 'Open Sans Condensed', sans-serif;
-    background-color: black;
 }
 
 #mainNavbar .navbar-brand {
@@ -38,3 +37,18 @@ body {
 }
 
 /* landing page style ends here */
+
+/* home page style starts here */
+
+.logo {
+    margin: 0;
+    padding: 0;
+    width: 110px;
+    height: 55px;
+}
+
+.menu {
+    letter-spacing: .2rem;
+    font-size: large;
+    margin-left: 100px;
+}
