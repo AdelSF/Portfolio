@@ -13,6 +13,10 @@ body {
 
 /* landing page style starts here */
 
+.landing-page {
+    background-color: black;
+}
+
 .landing-img {
     margin-top: 15%;
 }
@@ -48,7 +52,12 @@ body {
 }
 
 .menu {
-    letter-spacing: .2rem;
+    letter-spacing: .1rem;
     font-size: large;
     margin-left: 100px;
+    text-transform: uppercase;
+}
+
+.menu-space-between {
+    width: 65%;
 }
