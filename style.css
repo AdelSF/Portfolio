@@ -1,5 +1,8 @@
 body {
     font-family: 'Open Sans Condensed', sans-serif;
+    background-image: url(images/11.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #mainNavbar .navbar-brand {
@@ -52,12 +55,13 @@ body {
 }
 
 .menu {
-    letter-spacing: .1rem;
-    font-size: large;
-    margin-left: 100px;
+    margin: 2%;
+    font-size: 0.9rem;
     text-transform: uppercase;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
 }
 
-.menu-space-between {
-    width: 65%;
+.menu-space {
+    width: 68%;
 }
