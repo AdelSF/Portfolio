@@ -17,6 +17,7 @@ body {
 /* landing page style starts here */
 
 .landing-page {
+    background-image: unset;
     background-color: black;
 }
 
@@ -37,10 +38,26 @@ body {
     box-shadow: 5px 10px 10px 15px gray; */
 }
 
-.landing-p {
+.landing-p-qoute {
     color: white;
-    font-size: 1.2rem;
-    margin-top: 10%;
+    font-size: 1.5rem;
+    font-family: 'Shadows Into Light', cursive;
+    letter-spacing: 3px;
+}
+
+.landing-p-name {
+    color: white;
+    font-size: .8rem;
+    text-transform: uppercase;
+}
+
+.landing-btn-label {
+    color: white;
+    font-size: 1rem;
+    margin-top: 20%;
+    font-family: Helvetica, Arial, sans-serif;
+    text-transform: capitalize;
+
 }
 
 /* landing page style ends here */
