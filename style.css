@@ -1,12 +1,24 @@
 body {
     font-family: 'Open Sans Condensed', sans-serif;
-    background-image: url(images/11.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url(images/Optimized-12.jpg);
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+    padding-bottom: 3rem;
+    /* background:rgb(0, 0, 0); */
+    z-index: -1;
 }
 
-#mainNavbar .navbar-brand {
-    color:rgb(125, 185, 235);
+p {
+  color: aliceblue;
+  font-size: 1.2rem;
+}
+
+h2 {
+  color: aqua;
+}
+
+.nav-color {
+  color: aliceblue;
 }
 
 #mainNavbar {
@@ -77,22 +89,13 @@ body {
     text-transform: uppercase;
     font-family: Helvetica, Arial, sans-serif;
     font-weight: bold;
+    color: yellow;
 }
 
 .menu-space {
     width: 68%;
 }
 
-/* GLOBAL STYLES
--------------------------------------------------- */
-/* Padding below the footer and lighter body text */
-
-body {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    color: #5a5a5a;
-  }
-  
   
   /* CUSTOMIZE THE CAROUSEL
   -------------------------------------------------- */
@@ -110,7 +113,7 @@ body {
   /* Declare heights because of positioning of img element */
   .carousel-item {
     height: 32rem;
-    background-color: #777;
+    /* background-color: #777; */
   }
   .carousel-item > img {
     position: absolute;
