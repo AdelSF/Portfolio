@@ -106,6 +106,7 @@ h2 {
     justify-content: center;
     margin-top: 2%;
     text-transform: uppercase;
+    font-weight: 800;
 }
 
 .index-p {
@@ -114,6 +115,85 @@ h2 {
   font-family: Helvetica, Arial, sans-serif;
   font-weight: bold;
 }
+
+.home-video {
+  margin-bottom: 10%;
+}
+
+/* ========= Counter ============= */
+.counter {
+  margin-top: 5%;
+  /* background-image: url("../images/Other/slider-3.jpg"); */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-position: 50% 50%;
+}
+.counter-overlay {
+  padding-top: 20%;
+  padding-bottom: 120px;
+  /* background: rgba(0, 0, 0, .4); */
+  background-image: url("../images/Other/slider-3.jpg");
+
+}
+.counter-item i {
+  color: #129CF3;
+  font-size: 60px;
+}
+.counter-item h2 {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #D7DADB;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 35px;
+  margin-top: 15px;
+  margin-bottom: 1px;
+}
+.counter-item p {
+  color: #D7DADB;
+  font-size: 20px;
+  margin-top: 0px;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+/* my counter ---------------------------- */
+
+/* .counter-imgs {
+  margin: 10% auto;
+  background-color: orangered;
+  /* background-image: url("../images/Other/slider-3.jpg"); 
+}
+
+.icon-box {
+  border: 1px solid black;
+  height: 100px;
+  width: 100px;
+  margin: 20px auto;
+  transform: rotate(45deg);
+}
+
+.icon-box .fa-ad {
+  font-size: 40px;
+  color: black;
+  margin: 25px auto;
+  transform: rotate(-45deg);
+}
+
+.counter-box p {
+  font-size: 20px;
+}
+
+.counter-box .counter {
+  font-size: 80px;
+} /*
+
+
+
 
   
   /* CUSTOMIZE THE CAROUSEL
