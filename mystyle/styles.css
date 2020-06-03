@@ -120,9 +120,109 @@ h2 {
   margin-bottom: 10%;
 }
 
+.boxes {
+  display: none;
+}
+
+@media (min-width: 768px) {
+
+  .boxes {
+    display: inline-flex;
+  }
+
+  .icon-box-1 {
+    border: 1px solid white;
+    height: 30px;
+    width: 30px;
+    transform: rotate(30deg);
+    margin: 0 auto;
+    margin-bottom: 3rem;
+    margin-top: 7rem;
+    margin-right: -3rem;
+  }
+  
+  .icon-box-11 {
+    border: 2px solid red;
+    height: 55px;
+    width: 70px;
+    transform: rotate(20deg);
+    margin: 0 auto;
+    margin-bottom: 3rem;
+    margin-top: 10rem;
+    margin-right: 2rem;
+  }
+  
+  
+  .icon-box-111 {
+    border: 2px solid rgb(10, 236, 29);
+    height: 80px;
+    width: 80px;
+    transform: rotate(30deg);
+    margin: 0 auto;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    margin-right: -3rem;
+  }
+  
+  .icon-box-2 {
+    border: 2px solid rgb(14, 158, 242);
+    height: 180px;
+    width: 160px;
+    transform: rotate(-30deg);
+    margin: 0 auto;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    margin-left: 5rem;
+  }
+  
+  .icon-box-3 {
+    border: 2px solid white;
+  height: 190px;
+  width: 180px;
+  transform: rotate(40deg);
+  margin: 0 auto;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+  margin-right: 1rem;
+}
+
+.icon-box-4 {
+  border: 2px solid rgb(233, 12, 200);
+  height: 100px;
+  width: 90px;
+  transform: rotate(55deg);
+  margin: 0 auto;
+  /* margin-bottom: 3rem; */
+  margin-top: 5rem;
+  margin-right: -5rem;
+}
+
+.icon-box-44 {
+  border: 2px solid rgb(242, 242, 19);
+  height: 80px;
+  width: 70px;
+  transform: rotate(70deg);
+  margin: 0 auto;
+  margin-bottom: 3rem;
+  margin-top: 9rem;
+  margin-right: 1rem;
+}
+
+.icon-box-444 {
+  border: 1px solid white;
+  height: 20px;
+  width: 20px;
+  transform: rotate(70deg);
+  margin: 0 auto;
+  margin-bottom: 3rem;
+  margin-top: 7rem;
+  margin-right: 8rem;
+}
+}
+
 /* ========= Counter ============= */
 .counter {
-  margin-top: 5%;
+  /* margin-top: 5%; */
   /* background-image: url("../images/Other/slider-3.jpg"); */
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -133,7 +233,7 @@ h2 {
   background-position: 50% 50%;
 }
 .counter-overlay {
-  padding-top: 20%;
+  /* padding-top: 20%; */
   padding-bottom: 120px;
   /* background: rgba(0, 0, 0, .4); */
   background-image: url("../images/Other/slider-3.jpg");
@@ -149,7 +249,7 @@ h2 {
   font-weight: 700;
   text-transform: uppercase;
   font-size: 35px;
-  margin-top: 15px;
+  /* margin-top: 15px; */
   margin-bottom: 1px;
 }
 .counter-item p {
