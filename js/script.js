@@ -14,3 +14,8 @@ $(document).ready(function() {
     'use strict';
     new WOW().init();
 });
+
+
+var rellax = new Rellax('.rellax');
+
+

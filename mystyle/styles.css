@@ -1,10 +1,6 @@
 body {
     font-family: 'Open Sans Condensed', sans-serif;
-    background-image: url(/images/Other/Optimized-12.jpg);
-    /* background-repeat: no-repeat;
-    background-size: cover; */
     padding-bottom: 3rem;
-    /* background:rgb(0, 0, 0); */
     z-index: -1;
 }
 
@@ -398,3 +394,86 @@ h2 {
     background-color: black;
   }
 
+
+  /* rellax ============================== */
+
+  .black-color {
+    background:rgb(0, 0, 0);
+  }
+
+  .section-rellax {
+    display: flex;
+    width: 100%;
+    /* background: black; */
+    /* box-sizing: inherit; */
+    /* height: 100vh; */
+    /* z-index: -1; */
+  }
+
+  .svg-1, .svg-2, .svg-3, .svg-4, .svg-5, .svg-6, .index-p-qoute, .index-p-name {
+    display: none;
+  } 
+
+
+  @media only screen and (min-width: 800px) {
+
+      .svg-1 {
+        position: absolute;
+        width: 100%;
+        display: flex;
+      }
+    
+      .svg-2 {
+        position: absolute;
+        width: 100%;
+        display: flex;
+      }
+      
+      .svg-3 {
+        position: absolute;
+        width: 100%;
+        display: flex;
+      }
+    
+      .svg-4 {
+        position: absolute;
+        width: 100%;
+        display: flex;
+      }
+    
+    
+      .p-section {
+        display: flex;
+        margin-top: 56%;
+        position: absolute;
+        background-color: black;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: .5rem;
+      }
+
+      .index-p-qoute {
+        display: block;
+        padding: 5%;
+        font-size: 1.7rem;
+        text-transform: uppercase;
+        font-weight: bolder;
+        color: white;
+      }
+
+      .index-p-name {
+        display: block;
+      }
+  
+  }
+
+
+    .bg-color {
+      background-color: rgb(176, 175, 175);
+    }
+
+
+
+
+
+
+  
