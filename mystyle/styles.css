@@ -113,7 +113,8 @@ h2 {
 }
 
 .home-video {
-  margin-bottom: 10%;
+  margin-bottom: 8%;
+  border: 2px solid rgb(80, 77, 77);
 }
 
 .boxes {
@@ -410,12 +411,12 @@ h2 {
     /* z-index: -1; */
   }
 
-  .svg-1, .svg-2, .svg-3, .svg-4, .svg-5, .svg-6, .index-p-qoute, .index-p-name {
+  .svg-1, .svg-2, .svg-3, .svg-4, .svg-5, .svg-6, .svg-1-1, .svg-2-2, .svg-3-3, .svg-4-4, .index-p-qoute, .index-p-name {
     display: none;
   } 
 
 
-  @media only screen and (min-width: 800px) {
+  @media only screen and (min-width: 768px) {
 
       .svg-1 {
         position: absolute;
@@ -468,12 +469,96 @@ h2 {
 
 
     .bg-color {
-      background-color: rgb(176, 175, 175);
+      background-color: rgb(254, 254, 254);
+      background-image: url(../images/Other/lighting-4.jpeg);
+      background-repeat: no-repeat;
+      background-size: cover;
     }
 
 
+    @media only screen and (max-width: 767px) {
+      
+      .svg-1-1 {
+        position: absolute;
+        width: 100%;
+        display: flex;
+      }
+    
+      .svg-2-2 {
+        position: absolute;
+        width: 100%;
+        display: flex;
+      }
+      
+      .svg-3-3 {
+        position: absolute;
+        width: 100%;
+        display: flex;
+      }
+    
+      .svg-4-4 {
+        position: absolute;
+        width: 100%;
+        display: flex;
+      }
+      
+      .p-section {
+        display: flex;
+        margin-top: 137%;
+        position: absolute;
+        background-color: black;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: .5rem;
+      }
+
+      .index-p-qoute {
+        display: block;
+        /* margin-top: -4%; */
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        font-weight: bolder;
+        color: white;
+      }
+
+      .index-p-name {
+        display: block;
+        font-size: 1rem;
+      }
+    }
+
+    .index-offer {
+      border: 2px solid rgb(250, 249, 249);
+      border-radius: 20px;
+      color: white;
+      /* background-color: rgb(141, 137, 137); */
+      padding: 20px;
+      margin: 5px;
+    }
+
+    .index-about {
+      color: white;
+    }
+
+    /* .index-line-1 {
+      width: 200px;
+      text-align: center;
+      justify-self: center;
+      justify-content: center;
+      justify-items: center;
+    } */
 
 
+
+
+    .drawing-construction {
+      /* background-image: url(./images/Other/construction.jpeg); */
+      background-color: darkslategray;
+    }
+
+    .construction-img {
+      width: 70%;
+      height: 70%;
+    }
 
 
   
