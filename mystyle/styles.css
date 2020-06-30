@@ -589,7 +589,7 @@ h2 {
         justify-self: center;
     }
 
-    li {
+    .steps-style {
         font-size: 1.4rem;
     }
 
