@@ -43,10 +43,6 @@ h2 {
 .apply-btn {
     margin-top: 2%;
     margin-bottom: 10%;
-    /* the shadow has to start with delay when the lamp is on */
-    /* border: 1px solid;
-    padding: 10px;
-    box-shadow: 5px 10px 10px 15px gray; */
 }
 
 .landing-p-qoute {
@@ -73,7 +69,7 @@ h2 {
 
 /* landing page style ends here */
 
-/* home page (index) style starts here */
+/* home page (index) style starts here =================== */
 
 .logo {
     margin: 0;
@@ -123,101 +119,6 @@ h2 {
   display: none;
 }
 
-@media (min-width: 768px) {
-
-  .boxes {
-    display: inline-flex;
-  }
-
-  .icon-box-1 {
-    border: 1px solid white;
-    height: 30px;
-    width: 30px;
-    transform: rotate(30deg);
-    margin: 0 auto;
-    margin-bottom: 3rem;
-    margin-top: 7rem;
-    margin-right: -3rem;
-  }
-  
-  .icon-box-11 {
-    border: 2px solid red;
-    height: 55px;
-    width: 70px;
-    transform: rotate(20deg);
-    margin: 0 auto;
-    margin-bottom: 3rem;
-    margin-top: 10rem;
-    margin-right: 2rem;
-  }
-  
-  
-  .icon-box-111 {
-    border: 2px solid rgb(10, 236, 29);
-    height: 80px;
-    width: 80px;
-    transform: rotate(30deg);
-    margin: 0 auto;
-    margin-bottom: 3rem;
-    margin-top: 3rem;
-    margin-right: -3rem;
-  }
-  
-  .icon-box-2 {
-    border: 2px solid rgb(14, 158, 242);
-    height: 180px;
-    width: 160px;
-    transform: rotate(-30deg);
-    margin: 0 auto;
-    margin-bottom: 3rem;
-    margin-top: 3rem;
-    margin-left: 5rem;
-  }
-  
-  .icon-box-3 {
-    border: 2px solid white;
-  height: 190px;
-  width: 180px;
-  transform: rotate(40deg);
-  margin: 0 auto;
-  margin-bottom: 3rem;
-  margin-top: 3rem;
-  margin-right: 1rem;
-}
-
-.icon-box-4 {
-  border: 2px solid rgb(233, 12, 200);
-  height: 100px;
-  width: 90px;
-  transform: rotate(55deg);
-  margin: 0 auto;
-  /* margin-bottom: 3rem; */
-  margin-top: 5rem;
-  margin-right: -5rem;
-}
-
-.icon-box-44 {
-  border: 2px solid rgb(242, 242, 19);
-  height: 80px;
-  width: 70px;
-  transform: rotate(70deg);
-  margin: 0 auto;
-  margin-bottom: 3rem;
-  margin-top: 9rem;
-  margin-right: 1rem;
-}
-
-.icon-box-444 {
-  border: 1px solid white;
-  height: 20px;
-  width: 20px;
-  transform: rotate(70deg);
-  margin: 0 auto;
-  margin-bottom: 3rem;
-  margin-top: 7rem;
-  margin-right: 8rem;
-}
-}
 
 /* ========= Counter ============= */
 .counter {
@@ -407,10 +308,6 @@ h2 {
   .section-rellax {
     display: flex;
     width: 100%;
-    /* background: black; */
-    /* box-sizing: inherit; */
-    /* height: 100vh; */
-    /* z-index: -1; */
   }
 
   .svg-1, .svg-2, .svg-3, .svg-4, .svg-5, .svg-6, .svg-1-1, .svg-2-2, .svg-3-3, .svg-4-4, .index-p-qoute, .index-p-name {
@@ -458,7 +355,6 @@ h2 {
         display: block;
         padding: 5%;
         font-size: 1.7rem;
-        text-transform: uppercase;
         font-weight: bolder;
         color: white;
       }
@@ -478,7 +374,7 @@ h2 {
     }
 
 
-    @media only screen and (max-width: 767px) {
+    @media only screen and (max-width: 768px) {
       
       .svg-1-1 {
         position: absolute;
@@ -515,9 +411,7 @@ h2 {
 
       .index-p-qoute {
         display: block;
-        /* margin-top: -4%; */
         font-size: 1.2rem;
-        text-transform: uppercase;
         font-weight: bolder;
         color: white;
       }
@@ -532,7 +426,6 @@ h2 {
       border: 2px solid rgb(250, 249, 249);
       border-radius: 20px;
       color: white;
-      /* background-color: rgb(141, 137, 137); */
       padding: 20px;
       margin: 5px;
     }
@@ -541,27 +434,20 @@ h2 {
       color: white;
     }
 
-    /* .index-line-1 {
-      width: 200px;
-      text-align: center;
-      justify-self: center;
-      justify-content: center;
-      justify-items: center;
-    } */
-
-
-
-
     .drawing-construction {
       /* background-image: url(./images/Other/construction.jpeg); */
       background-color: darkslategray;
     }
 
+
+    /* DRAWING section starts here ================== */
     .construction-img {
       width: 70%;
       height: 70%;
     }
 
+    /* PHOTOGRAOHY SECTION STARTS HERE =================== */
+    
     .pg-ed-video {
       border: 2px solid rgb(80, 77, 77);
     }
@@ -589,7 +475,59 @@ h2 {
         justify-self: center;
     }
 
-    .steps-style {
-        font-size: 1.4rem;
+    .steps-section {
+      justify-items: center;
+      padding: 5px;
+      border: 1px solid white;
+      border-radius: 5px;
+      font-size: 2rem;
+      width: 350px;
+      justify-self: center;
     }
+
+
+
+    /* =======test======== */
+
+    .cont-parallax {
+      /* max-width: 960; */
+      width: 100%;
+      margin: 0 auto;
+      /* background-color: red; */
+      font-size: medium;
+      padding: 25px;
+    }
+
+    .parallax-window {
+      min-height: 500px;
+      background: transparent;
+    }
+    
+    .mmm {
+      /* margin-top: 10%; */
+    /* padding-top: 10%; */
+    background-image: url(../images/Optimized-Upload-Models/Rowan/Optimized-Rowan-77.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 70%;
+    width: 100%;
+    opacity: .6;
+  }
+  .mmm2 {
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/756/185/281/women-model-long-hair-brunette-wallpaper-preview.jpg);
+    /* Tweak the percentages to suit you. The first value is horizontal (X) and the second value is vertical (Y). */
+    background-position: 50% 70%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+  }
+
+  .on-img-text {
+    /* margin: 10%; */
+    /* padding: 30%; */
+    color: rgb(38, 184, 241);
+    font-weight: 100;
+  }
 
