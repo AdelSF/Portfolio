@@ -80,7 +80,7 @@ h2 {
 
 .menu {
     margin: 2%;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     text-transform: uppercase;
     font-family: Helvetica, Arial, sans-serif;
     font-weight: bold;
@@ -430,6 +430,52 @@ h2 {
       margin: 5px;
     }
 
+    .cont-parallax {
+      /* max-width: 960; */
+      width: 100%;
+      margin: 0 auto;
+      /* background-color: red; */
+      font-size: medium;
+      padding: 25px;
+    }
+
+    .parallax-window {
+      min-height: 500px;
+      background: transparent;
+    }
+    
+
+    .index-img-4 {
+      background-image: url(../images/Optimized-Upload-Models/Rowan/Optimized-Rowan-77.jpeg);
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 50% 70%;
+      width: 100%;
+      opacity: .6;
+      border: 2px solid rgb(255, 255, 255);
+      border-radius: 8px;
+    }
+
+    .index-img-text {
+      /* color: rgb(245, 247, 248); */
+      font-weight: 900;
+      text-align: center;
+      padding-top: 230px;
+      font-family: fantasy;
+      font-size: 1.5rem;
+      text-shadow: 2px 2px #f6f7f8;
+      color: turquoise;
+    }
+
+    .lense {
+      /* background-image: url(../images/Other/lense.jpg); */
+      width: 100%;    
+      /* background-position: 50% 70%; */
+    }
+  
+  
+
     .index-about {
       color: white;
     }
@@ -485,35 +531,21 @@ h2 {
       justify-self: center;
     }
 
+    .photog-img-4 {
+      background-image: url(../images/Other/0M8A0110.jpeg);
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 50% 70%;
+      width: 100%;
+      opacity: .6;
+      /* margin-top: 300px; */
+    }
+
 
 
     /* =======test======== */
 
-    .cont-parallax {
-      /* max-width: 960; */
-      width: 100%;
-      margin: 0 auto;
-      /* background-color: red; */
-      font-size: medium;
-      padding: 25px;
-    }
-
-    .parallax-window {
-      min-height: 500px;
-      background: transparent;
-    }
-    
-    .mmm {
-      /* margin-top: 10%; */
-    /* padding-top: 10%; */
-    background-image: url(../images/Optimized-Upload-Models/Rowan/Optimized-Rowan-77.jpeg);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 70%;
-    width: 100%;
-    opacity: .6;
-  }
   .mmm2 {
     background-image: url(https://c4.wallpaperflare.com/wallpaper/756/185/281/women-model-long-hair-brunette-wallpaper-preview.jpg);
     /* Tweak the percentages to suit you. The first value is horizontal (X) and the second value is vertical (Y). */
@@ -524,10 +556,72 @@ h2 {
     width: 100%;
   }
 
-  .on-img-text {
-    /* margin: 10%; */
-    /* padding: 30%; */
-    color: rgb(38, 184, 241);
-    font-weight: 100;
+/* Booking section starts here ================= */
+
+  /* this is for big screen  */
+  @media only screen and (min-width: 665px) {
+  .main-form {
+    padding: 70px 100px;
+    width: 650px;
+    margin: auto;
+    border-radius: 10px;
   }
+
+  .form-style {
+    margin-top: 3%;
+    background-color: white;
+  }
+
+  .test-page {
+    background-image: url(../images/Other/lighting-4.jpeg);
+  }
+
+
+  .form-comnt {
+    height: 200px;
+    width: 100%;
+  }
+
+
+  .submit-form {
+    width: 200px;
+  }
+
+}
+
+  /* this is for Small screen  */
+  @media only screen and (max-width: 665px) {
+    .main-form {
+      padding: 30px;
+      margin: auto;
+      border-radius: 10px;
+    }
+  
+    .form-style {
+      background-color: white;
+    }
+  
+    .test-page {
+      background-image: url(../images/Other/lighting-4.jpeg);
+    }
+  
+  
+    .form-comnt {
+      height: 200px;
+      width: 100%;
+    }
+  
+  
+    .submit-form {
+      width: 200px;
+    }
+  
+  }
+
+    /* About section style here*/
+
+    .about-row {
+      border: 2px solid white;
+      border-radius: 7px;
+    }
 
