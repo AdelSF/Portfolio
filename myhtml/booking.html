@@ -31,7 +31,7 @@
                 </button>
                 <div class="collapse navbar-collapse nav-color" id="navbarNav">
                     <ul class="navbar-nav menu mx-auto menu-space">
-                        <li class="nav-item active menu-space">
+                        <li class="nav-item menu-space">
                             <a class="nav-link nav-color" style="color: rgb(91, 179, 247);" href="/index.html">home<span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item menu-space nav-color">
@@ -50,36 +50,9 @@
                 </div>
             </nav>
         </container>
-
+        
         <!-- form starts here ====================== -->
-        <form action="" class="main-form needs-validation form-style" novalidate>
-            <div class="row">
-                <div class="col">
-                    <div class="form-group">
-                        <label for="firstname">Firstname</label>
-                        <input type="text" name="firstname" id="firstname" class="form-control is-invalid">
-                        <div class="invalid-feedback">Looks good!</div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="form-group">
-                        <label for="lastname">Lastname</label>
-                        <input type="text" name="lastname" id="lastname" class="form-control">
-                        <small class="form-text text-muted">
-                            This should be your last name.
-                        </small>
-                    </div>
-                </div>
-            </div>
-            <div class="form-group">
-                <label for="gender">Gender</label>
-                <select name="gender" id="gender" class="form-control">
-                    <option value="male">Male</option>
-                    <option value="female">Female</option>
-                    <option value="female">Prefer not to say</option>
-                </select>
-            </div>
-            <div class="form-group">
+            <!-- <div class="form-group">
                 <label for="username">Username</label>
                 <input type="text" name="username" id="username" class="form-control" required>
                 <div class="invalid-feedback">Please enter a valid username.</div>
@@ -87,31 +60,77 @@
             <div class="form-group">
                 <label for="password">Password</label>
                 <input type="password" name="password" id="password" class="form-control">
-            </div>
-            <div class="form-check">
-                <input type="checkbox" id="accept-terms" class="form-check-input">
-                <label for="accept-terms" class="form-check-label">Accept Terms &amp; Conditions</label>
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
-
-
-
-
-
-
-
-        <!-- <div class="container">
+            </div> -->
+        <form action="http://localhost:3000/email" method="post" class="main-form needs-validation form-style" novalidate>
             <div class="row">
-                <div class="col-md-12">
+                <div class="col">
+                    <div class="form-group">
+                        <label for="firstname">Firstname</label>
+                        <input type="text" name="firstname" id="firstname" class="form-control" required>
+                        <div class="invalid-feedback">This should be your first name</div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="form-group">
+                        <label for="lastname">Lastname</label>
+                        <input type="text" name="lastname" id="lastname" class="form-control" required>
+                        <small class="form-text text-muted">
+                            <!-- This should be your last name. -->
+                        </small>
+                    </div>
                 </div>
             </div>
-        </div> -->
+            <div class="form-group">
+                <label for="gender">Gender</label>
+                <select name="gender" id="gender" class="form-control" required>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="phonenum">Phone Number</label>
+                <input type="text" name="phonenum" id="phonenum" class="form-control" required>
+                <div class="invalid-feedback">Please enter a valid phone number</div>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email" class="form-control" required>
+                <div class="invalid-feedback">Please enter a valid Email address</div>
+            </div>
 
-        
+            <!-- photography porpose =========================== -->
+            <div class="form-group">
+                <label for="porpose">What's the porpose for your photography session?</label>
+                <select name="porpose" id="porpose" class="form-control">
+                    <option value="personal album">Personal Album</option>
+                    <option value="event">Events</option>
+                    <option value="Volunteer">Volunteer Model</option>
+                    <option value="other">Other</option>
+                    <!-- <option value="business">Business porposes</option> -->
+                </select>
+            </div>
 
+            <!-- Questions and text area =================== -->
+            <div class="form-group">
+                <label for="style">Do you have any exerience about modeling or photography? If yes, please describe:</label>
+                <textarea name="style" id="style" class="form-control" placeholder="Describe shortly..."></textarea>
+            </div>
+            <div class="form-group">
+                <label for="conditions">Is there any concern or conditions that you wanna share with your Photographer?</label>
+                <textarea name="conditions" id="conditions"  class="form-control" placeholder="Describe shortly..."></textarea>
+            </div>
+            
 
-      
+            <!-- <div class="form-check">
+                <input type="checkbox" id="accept-terms" class="form-check-input ">
+                <label for="accept-terms" class="form-check-label">Accept <a href="#"> Terms &amp; Conditions</a></label>
+            </div> -->
+            <div class="text-center">
+                <button type="submit" class="btn btn-primary submit-form btn-lg m-4">Submit</button>
+            </div>
+        </form>
+
 
      <!-- Optional JavaScript -->
      <script src="/js/wow.min.js"></script>
