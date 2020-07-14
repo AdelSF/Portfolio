@@ -18,7 +18,8 @@ app.post('/email', function (req, res, next) {
         password: 'adel000151210',
         host: 'smtp.gmail.com',
         ssl: true
-    });
+    }
+    );
 
     const from = `Contact Form`
     const text = `${firstname} ${lastname} ${phonenum} ${email} ${gender} ${porpose} ${experience} ${style} ${conditions} `
@@ -27,11 +28,17 @@ app.post('/email', function (req, res, next) {
         from,
         to: 'adelpakrad@gmail.com',
         cc: '',
-        subject: "Majid"
+        subject: "Client"
     }, (err, message) => {
         if(err) console.log(err)
     })
     res.end()
+    }
+)
+
+app.get('/email', function(req, res){
+    res.send("");
 })
 
-app.listen(3000)
+
+app.listen(3000, console.log("server is running"));
